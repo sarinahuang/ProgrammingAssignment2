@@ -30,7 +30,6 @@ makeCacheMatrix <- function(x = matrix()) {
        getinv = getinv)
 }
 
-
 ## Checks to see if the inverse is in the cache already from a previous
 ## calculation. If not, it calculates the inverse, puts it in the cache,
 ## and returns the inverse.
